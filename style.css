@@ -59,7 +59,9 @@ h1{
     background-repeat: no-repeat;
 }
 #border-left{
-    border-left: 10px solid orange;
+    border-left: 10px solid;
+    border-image: linear-gradient(red,orange);
+    border-image-slice: 1;
 }
 #border{
     border-left: 10px solid;
